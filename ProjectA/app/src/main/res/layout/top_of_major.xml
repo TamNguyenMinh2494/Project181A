@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sub_sub">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtTopnMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Which top do you want to find?"
+            android:textColor="@color/yellow"/>
+        <Spinner
+            android:id="@+id/spinnerTopnMajor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edtTopnMajor">
+        </Spinner>
+        <Button
+            android:id="@+id/btnGonMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:layout_below="@id/spinnerTopnMajor"/>
+
+        <ListView
+            android:id="@+id/ListViewTopnMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGonMajor"
+            android:divider="#FF3366"
+            android:dividerHeight="10dp">
+        </ListView>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

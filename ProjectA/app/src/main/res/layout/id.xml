@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sub_sub">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input ID to find"
+            android:inputType="number"
+            android:textColor="#FFFF00"
+            android:completionThreshold="1">
+            <!--Chỉ cần nhập 1 số thì tự động hiện-->
+            <requestFocus />
+        </AutoCompleteTextView>
+
+
+        <ListView
+            android:id="@+id/ListViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/autoCompleteID"
+            android:divider="#FF3366"
+            android:dividerHeight="10dp">
+
+        </ListView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

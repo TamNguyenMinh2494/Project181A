@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="No"
+            android:textSize="30dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="ID" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/textViewID"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:text="FirstName" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/textViewFirstName"
+            android:text="LastName" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewDayofBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:text="DayOfBirth" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDayofBirth"
+            android:layout_marginLeft="80dp"
+            android:text="Gender" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewMajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="Major" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewLastName"
+            android:layout_marginLeft="260dp"
+            android:text="English" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEnglish"
+            android:layout_marginLeft="260dp"
+            android:text="Math" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewMath"
+            android:layout_marginLeft="260dp"
+            android:text="IT" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSex"
+            android:layout_marginLeft="80dp"
+            android:text="DTB" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/textViewRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewAverage"
+            android:layout_marginLeft="80dp"
+            android:text="Rank" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
